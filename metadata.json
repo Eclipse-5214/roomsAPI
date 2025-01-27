@@ -1,0 +1,7 @@
+{
+    "name": "Rooms API",
+    "creator": "NEXD_",
+    "description": "An api for dungeon room recognition",
+    "version": "1.0.0",
+    "entry": "index.js"
+}
