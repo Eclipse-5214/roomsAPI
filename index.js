@@ -19,9 +19,9 @@ register("command", (...args) => {
         ChatLib.chat("&6/rapi name &7Displays current rooms name!");
         ChatLib.chat("&6/rapi world &7Displays current rooms world info!");
         ChatLib.chat("&6/rapi id &7Displays current rooms ID!");
-        ChatLib.chat("&6/srdb core &7Displays current rooms core!");
+        ChatLib.chat("&6/rapi core &7Displays current rooms core!");
         ChatLib.chat("&8&m-------------------------------------------------");
     } else {
-        ChatLib.chat("&cUnknown command. &7Try &6/srdb help &7for a list of commands");
+        ChatLib.chat("&cUnknown command. &7Try &6/rapi help &7for a list of commands");
     }
 }).setName("rapi");
