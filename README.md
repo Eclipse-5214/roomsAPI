@@ -24,20 +24,14 @@
 
 <p>Here are some of the uses that <em>roomsAPI</em> has so far</p>
 
-### **Dungeons**
-- Dungeon Routes (kinda like BLC)
-  --> ( https://www.youtube.com/watch?v=FKndGLs0G1Y ) check this video to see it in action!
-- 70+ default routes!
-- The ability to record your own routes!
-- Secret Waypoints
-- Terminal Numbers
-- Terminal Tracker
-- Room name GUI
-
-## **General**
-- Block Overlay
-- Highlight Dugeon Trash
-- Cool Chroma
+### **getRoomData()**
+gets statistic info about the room your in
+example:
+```js
+getRoomData().name
+//returns the name
+```
+look in the /Data/roomdata.json file for all the things it can return
 
 <h2 align="center">Installation Steps</h2>
 
