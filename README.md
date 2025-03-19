@@ -26,12 +26,47 @@
 
 ### **getRoomData()**
 gets statistic info about the room your in
+
 example:
 ```js
 getRoomData().name
 //returns the name
 ```
 look in the /Data/roomdata.json file for all the things it can return
+
+### **getRoomWorldData()**
+gets real world info about the room you are in
+
+example:
+```js
+getRoomWorldData().rotation
+//returns the rotation of the room you are in
+```
+can return corner (x, y, z), center (x, y, z), width, hight, 
+
+### **getRoomWorldData()**
+gets real world info about the room you are in
+
+example:
+```js
+getRoomWorldData().rotation
+//returns the rotation of the room you are in
+```
+
+### **getRoomCoord() / getRealCoord()**
+translates real world coordnantes into relitive room coordnates and vice versa
+
+this could be usefull for makeing room specific waypoints
+
+example:
+```js
+let [x, y, z] = [Player.getX(), Player.getY(), Player.getZ()]
+
+let relitive = getRoomCoord([x, y, z])
+//returns the relitive room coordnates
+
+let actual = getRealCoord(relitive)
+```
 
 <h2 align="center">Installation Steps</h2>
 
