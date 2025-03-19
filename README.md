@@ -54,18 +54,19 @@ getRoomWorldData().rotation
 ```
 
 ### **getRoomCoord() / getRealCoord()**
-translates real world coordnantes into relitive room coordnates and vice versa
+translates real world coordinates into relative room coordinates and vice versa
 
-this could be usefull for makeing room specific waypoints
+this could be useful for making room specific waypoints
 
 example:
 ```js
 let [x, y, z] = [Player.getX(), Player.getY(), Player.getZ()]
 
-let relitive = getRoomCoord([x, y, z])
-//returns the relitive room coordnates
+let relative = getRoomCoord([x, y, z])
+//returns the relative room coordinates
 
-let actual = getRealCoord(relitive)
+let actual = getRealCoord(relative)
+//returns the actual room coords
 ```
 
 <h2 align="center">Installation Steps</h2>
